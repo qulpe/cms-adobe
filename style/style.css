@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 72px;
+    width: 100%;
+    background: #acabac;
+    display: flex;
+    justify-content: stretch;
+}
+.nav-button{
+    display: grid;
+    place-items: center;
+    color: #facabe;
+    
+}

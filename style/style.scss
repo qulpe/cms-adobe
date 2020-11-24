@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .navigation {
   height: 100vh;
   width: 100px;
@@ -12,11 +11,9 @@ body {
   justify-content: space-evenly;
   pointer-events: none;
 }
-
 .menu-text {
   display: none;
 }
-
 .nav-button {
   height: 100px;
   display: grid;
@@ -27,27 +24,22 @@ body {
   font-size: 2rem;
   pointer-events: auto;
 }
-
 .nav-button:hover {
   writing-mode: horizontal-tb;
   text-orientation: mixed;
   transition: 1s ease-in;
 }
-
 .navigation:hover {
   width: 150px;
   transition: 1s ease-in-out;
 }
-
 @media screen and (max-width: 600px) {
   .navigation {
     display: none;
   }
-
-  #toggle {
-    display: none;
+  #toggle{
+      display: none;
   }
-
   .menu {
     margin: 0 auto;
     top: 50%;
@@ -101,46 +93,39 @@ body {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
   }
-
   .btn:nth-child(3) {
     top: 0px;
     left: 0px;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
   }
-
   .btn:nth-child(4) {
     left: 0px;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
   }
-
   .btn:nth-child(5) {
     top: 0px;
     left: 0px;
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
-
   .btn:nth-child(6) {
     top: 0px;
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
   }
-
   .btn:nth-child(7) {
     top: 0px;
     left: 0px;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
   }
-
   .btn:nth-child(8) {
     left: 0px;
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
-
   .btn:nth-child(9) {
     top: 0px;
     left: 0px;
@@ -201,7 +186,7 @@ body {
   }
 
   .menuBtn,
-.closeBtn {
+  .closeBtn {
     position: absolute;
     transition: all 0.3s ease;
   }
@@ -221,5 +206,3 @@ body {
     opacity: 1;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
